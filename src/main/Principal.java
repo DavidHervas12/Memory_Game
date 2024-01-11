@@ -4,6 +4,9 @@ import controlador.Controlador;
 import model.Model;
 import vista.VistaMenu;
 
+/**
+ * Clase principal de l'aplicació amb el métode main.
+ */
 public class Principal {
 
 	public static void main(String[] args) {

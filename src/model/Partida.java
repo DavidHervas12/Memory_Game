@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Classe que representaria un record en la base de dades.
+ */
 public class Partida {
 
 	String usuari, timeStamp;

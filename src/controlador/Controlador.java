@@ -23,7 +23,9 @@ import vista.SeleccioDificultat;
 import vista.VistaMemory;
 import vista.VistaMenu;
 import vista.VistaRecords;
-
+/**
+ * Controlador de l'aplicació, encarregada de comunicar el model amb les vistes.
+ */
 public class Controlador {
 
 	private Model model;
@@ -360,6 +362,9 @@ public class Controlador {
 		vistaRecords.getEditorPane().setText(tabla);
 	}
 
+	/**
+	 * Método encarregat de tancar la sessió
+	 */
 	public void tancarSessio() {
 		menu.getBtnTancarSessio().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

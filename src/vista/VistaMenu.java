@@ -13,6 +13,9 @@ import javax.swing.border.EmptyBorder;
 
 import model.Model;
 
+/**
+ * Vista que representa la pantalla inicial de l'aplicació
+ */
 public class VistaMenu extends JFrame {
 
 	private static final long serialVersionUID = 1L;

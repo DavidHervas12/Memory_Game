@@ -15,6 +15,9 @@ import javax.swing.border.EmptyBorder;
 import controlador.Boto;
 import model.Model;
 
+/**
+ * Vista del joc
+ */
 public class VistaMemory extends JFrame {
 
 	private static final long serialVersionUID = 1L;
@@ -82,7 +85,9 @@ public class VistaMemory extends JFrame {
 		setLocationRelativeTo(null);
 		setVisible(true);
 	}
-
+/**
+ * Métode que genera els botons del mode de joc fàcil.
+ */
 	public void generarBotonsFacil() {
 
 		ImageIcon fons_carta = Model.getImageIcon("C:\\Users\\dherv\\AccesoDatos\\AE3\\assets\\fondo_carta.png", 137,
@@ -100,7 +105,9 @@ public class VistaMemory extends JFrame {
 		}
 
 	}
-
+	/**
+	 * Métode que genera els botons del mode de joc difícil.
+	 */
 	public void generarBotonsDificil() {
 
 		ImageIcon fons_carta = Model.getImageIcon("C:\\Users\\dherv\\AccesoDatos\\AE3\\assets\\fondo_carta.png", 105,

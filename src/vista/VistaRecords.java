@@ -9,6 +9,9 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
+/**
+ * Vista on es mostren els récords de l'aplicació.
+ */
 public class VistaRecords extends JFrame {
 
 	private static final long serialVersionUID = 1L;

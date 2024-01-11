@@ -36,6 +36,9 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
+/**
+ * Al model es gestionen les operacions amb la base de dades y la logica.
+ */
 public class Model {
 
 	private boolean sessioIniciada = false;
